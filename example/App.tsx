@@ -23,7 +23,7 @@ export default function App() {
   const login = async () => {
     try {
       const web3auth = new Web3Auth(WebBrowser, {
-        clientId: "BA0mVyeHATikwuXVhXWCNjAxHthlw0w84mUhLuxlC4KZKjvmBsbdbmEWTizJ26YzrbKSWbOZbtGYdVDm0ESuYSg",
+        clientId: "BL7i2FRZZev9wGqWv6u4UqL6hcLbfTaZvo29bDt9bytGjL5LtCjtVGSL7NB0eA_Xayog55s-zDFGsfgbnSYJacE",
         network: OPENLOGIN_NETWORK.TESTNET,
       });
       const state = await web3auth.login({
